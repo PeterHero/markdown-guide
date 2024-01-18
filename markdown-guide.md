@@ -43,6 +43,10 @@ My usage:
 ```
 htmldoc --webpage -f foo.pdf foo.html
 ```
+directly to pdf:
+```
+lowdown -s foo.md | htmldoc --webpage -f foo.pdf -
+```
 
 ## Other
 
