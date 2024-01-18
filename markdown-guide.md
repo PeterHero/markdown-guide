@@ -56,5 +56,4 @@ When exporting to html you can also add the css file for creating a uniform styl
 
 ### To-do
 
-- add example makefile for this workflow
 - can title be added to the webpage?
