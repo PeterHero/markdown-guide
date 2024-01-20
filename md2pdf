@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+
+file=$(echo "$1" | rev | cut -f 2- -d '.' | rev)
+
+lowdown -s $file.md | htmldoc --webpage --charset utf-8 -f $file.pdf -

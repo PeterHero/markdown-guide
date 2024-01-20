@@ -41,12 +41,20 @@ HTMLDOC can directly convert markdown to pdf but the conversion is correct. But 
 
 My usage:
 ```
-htmldoc --webpage -f foo.pdf foo.html
+htmldoc --webpage --charset utf-8 -f foo.pdf foo.html
 ```
 directly to pdf:
 ```
-lowdown -s foo.md | htmldoc --webpage -f foo.pdf -
+lowdown -s foo.md | htmldoc --webpage --charset utf-8 -f foo.pdf -
 ```
+
+### Vim
+
+I use binding in vim to compile md to pdf easily. It may change in the future when I add support for compiling programming languages.
+
+`map <leader>c :w! \| !md2pdf "%:p"<CR>`
+
+The md2pdf script is attached.
 
 ## Other
 
