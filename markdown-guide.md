@@ -62,6 +62,8 @@ lowdown allows many formats e.g. odt.
 
 When exporting to html you can also add the css file for creating a uniform style for your website. This cannot be used with htmldoc.
 
+Big kudos to [Luke Smith](https://lukesmith.xyz/) for inspiration.
+
 ### To-do
 
 - can title be added to the webpage?
