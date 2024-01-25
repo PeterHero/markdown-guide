@@ -37,7 +37,7 @@ According to the [website](https://www.msweet.org/htmldoc/):
 
 I find this tool to be very useful and unique because it "does not support many things in the modern web". For my usecase this is a plus because that makes the tool lightweight and fulfill the purpose I have for it.
 
-HTMLDOC can directly convert markdown to pdf but the conversion is correct. But md -> html -> pdf works very well.
+HTMLDOC can directly convert markdown to pdf but it does not correctly convert emphasis such as **this**. But md -> html -> pdf works very well.
 
 My usage:
 ```
